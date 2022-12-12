@@ -1,0 +1,125 @@
+.grid-form {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 200px;
+}
+
+.azul-img {
+  background-color: #4973fa;
+  height: 100%;
+}
+
+.azul-img .logo {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.azul-img .astronauta {
+  margin-top: 160px;
+  margin-left: 60px;
+  width: 320px;
+  height: auto;
+}
+
+.conteiner-form {
+  max-width: 512px;
+  margin-top: 60px;
+}
+
+.cadastro .circulo-user {
+  width: 112px;
+  height: 112px;
+  background-color: #f8f9fa;
+  border: 1.5px solid #e9ecef;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.cadastro .circulo-user::after {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url("../assets/cam.svg");
+  bottom: 0;
+  right: 0;
+}
+
+.cadastro .circulo-user img {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.conteiner-form h1 {
+  font-size: 2.5rem;
+  color: #021450;
+  margin-bottom: 48px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #343a40;
+  margin-bottom: 12px;
+}
+
+.form .span-2 {
+  grid-column: span 2;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 12px;
+  border: 1.5px solid #e9ecef;
+  background: #f8f9fa;
+}
+
+.form input::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #adb5bd;
+}
+
+.conteiner-form button {
+  place-self: start;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 20px 40px;
+  background-color: #4973fa;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 54px;
+  cursor: pointer;
+}
+
+.conteiner-form button:hover {
+  background-color: #678aff;
+}
+
+.login button {
+  margin-top: 28px;
+}
+
+.sing {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.sing span {
+  color: #4973fa;
+  cursor: pointer;
+}

@@ -1,0 +1,129 @@
+.encontro-grupo {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.encontro-grupo h1 {
+  color: #021450;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.encontro-grupo p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+}
+
+.encontros {
+  text-align: end;
+}
+
+.encontros p {
+  margin-bottom: 12px;
+}
+.dias-encontro {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.dia-custom {
+  position: relative;
+}
+
+.dia-custom span {
+  position: absolute;
+  font-size: 0.8rem;
+  color: #868e96;
+  top: 4px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.dia-custom input {
+  display: none;
+}
+
+.dia-custom input + label::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dia-custom input:checked + label::before {
+  background-color: #4973fa;
+}
+
+.dia-custom input:checked + label + span {
+  color: #fff;
+}
+
+.metas-materiais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.metas-materiais .card-m {
+  background-color: #fff;
+  padding: 32px;
+}
+
+.titulo-img {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.circulo {
+  width: 64px;
+  height: 64px;
+  background-color: #cedbfd;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circulo img {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.local-list {
+  margin-bottom: 26px;
+}
+
+.valor-adicionado input {
+  width: 24px;
+  height: 24px;
+}
+
+.valor-adicionado input:checked {
+  color: #eff3fe;
+  border-color: #4973fa;
+}
+
+.valor-adicionado ul li {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #343a40;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}

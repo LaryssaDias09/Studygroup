@@ -1,0 +1,136 @@
+.home {
+  background-color: #eff3fe;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+
+.menu {
+  width: 256px;
+  height: 100vh;
+  background-color: #fff;
+  grid-column: 1;
+}
+
+.conteinerMenu {
+  padding: 0 24px;
+}
+
+.conteinerMenu img {
+  padding: 30px 10px 30px 10px;
+  border-bottom: 1px solid rgb(226, 233, 254);
+  margin-bottom: 48px;
+}
+
+.conteinerMenu h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 26px;
+  color: #021450;
+}
+
+.conteinerMenu li,
+.conteinerMenu button {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.conteinerMenu ul {
+  margin-bottom: 34px;
+}
+
+.body-home {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-home {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1.5px solid rgba(73, 115, 250, 0.08);
+  padding: 22px 5px;
+}
+
+.busca,
+.info-user {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.busca {
+  position: relative;
+}
+
+.busca input {
+  float: left;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 16px;
+  width: 256px;
+  padding: 16px 12px 16px 44px;
+  border: 1.5px solid #e9ecef;
+  border-radius: 6px;
+}
+
+.busca input::placeholder {
+  color: #adb5bd;
+}
+
+.busca img {
+  position: absolute;
+  left: 12px;
+}
+
+.info-user {
+  gap: 10px;
+}
+
+.info-user .foto-user {
+  border: 2px solid #4973fa;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.nome-Usuario {
+  font-weight: 500;
+}
+
+.info-user button {
+  cursor: pointer;
+}
+
+.sem-grupo {
+  max-width: 400px;
+  margin: 64px auto;
+}
+
+.sem-grupo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sem-grupo h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5em;
+  color: #021450;
+}
+
+.list-grupos li {
+  padding: 14px;
+  cursor: pointer;
+}
+
+.main-home li {
+  display: none;
+}
+
+.main-home .ativo {
+  display: block;
+}
